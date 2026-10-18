@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset - DO NOT upload to GitHub
+data/
+*.zip
+
+# Trained model files
+*.h5
+*.keras
+*.ckpt
+checkpoint*
+
+# Generated outputs
+outputs/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Environment/secrets
+.env
