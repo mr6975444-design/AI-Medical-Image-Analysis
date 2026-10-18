@@ -287,6 +287,27 @@ http://127.0.0.1:5000
 
 ---
 
+---
+
+## Dashboard Preview
+
+The project includes a local Flask dashboard for interacting with the trained model.
+
+### Web Dashboard
+
+![AI Medical Image Analysis Dashboard](docs/screenshots/dashboard.png)
+
+### Example Prediction
+
+The dashboard can be used to upload a previously unseen test image and display the model's prediction and model confidence.
+
+![Example Model Prediction](docs/screenshots/prediction.png)
+
+### Confusion Matrix
+
+The class-weighted experiment produced the following confusion matrix on the held-out test dataset:
+
+![Class-Weighted Confusion Matrix](docs/screenshots/confusion_matrix.png)
 ## API
 
 The Flask application also exposes a prediction endpoint.
